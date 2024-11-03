@@ -1,0 +1,25 @@
+backend/
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│   └── userController.js
+│   └── chatController.js
+│
+├── middlewares/
+│   └── isAuth.js
+│   └── sendMail.js
+│
+├── models/
+│   └── chatModel.js
+│   └── conversationModel.js
+│   └── userModel.js
+│
+├── routes/
+│   └── chatRoutes.js
+│   └── userRoutes.js
+│
+├── .env
+├── index.js
+└── package.json
